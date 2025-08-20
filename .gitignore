@@ -10,3 +10,6 @@ node_modules
 # Codegen
 ios/generated
 android/generated
+
+# Build artifacts
+Build/
