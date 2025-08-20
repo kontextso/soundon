@@ -1,0 +1,44 @@
+{
+  "name": "@kontextso/soundon",
+  "version": "1.0.0",
+  "description": "SoundOn module for React Native",
+  "main": "src/index",
+  "author": "Petr Chalupa <petr.chalupa@strv.com> (https://www.strv.com/)",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/kontextso/soundon#readme",
+  "files": [
+    "src",
+    "android",
+    "ios",
+    "*.podspec",
+    "!ios/build",
+    "!android/build",
+    "!android/gradle",
+    "!android/gradlew",
+    "!android/gradlew.bat",
+    "!android/local.properties",
+    "!**/.*"
+  ],
+  "scripts": {
+    "pretty": "prettier --write \"./src/**/*.{js,jsx,mjs,cjs,ts,tsx,json}\"",
+    "lint": "eslint --ext .ts,.tsx src",
+    "ts:check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@kontextso/eslint-config": "workspace:*",
+    "@kontextso/typescript-config": "workspace:*",
+    "@react-native/babel-preset": "0.79.2",
+    "@types/react": "~18.3.12",
+    "eslint": "^8.57.0",
+    "typescript": "5.0.4"
+  },
+  "peerDependencies": {
+    "react": ">=18.3.0",
+    "react-native": ">=0.73.0"
+  },
+  "codegenConfig": {
+    "name": "SoundonSpec",
+    "type": "modules",
+    "jsSrcsDir": "src"
+  }
+}

@@ -1,0 +1,12 @@
+node_modules
+
+# OSX
+.DS_Store
+
+# Tools
+.yarn
+.expo
+
+# Codegen
+ios/generated
+android/generated

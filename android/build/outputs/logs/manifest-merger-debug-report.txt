@@ -1,0 +1,16 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/petr.chalupa/Code/kontext-sdk/apps/react-native-app/node_modules/@kontextso/soundon/android/src/main/AndroidManifest.xml:1:1-2:12
+INJECTED from /Users/petr.chalupa/Code/kontext-sdk/apps/react-native-app/node_modules/@kontextso/soundon/android/src/main/AndroidManifest.xml:1:1-2:12
+	package
+		INJECTED from /Users/petr.chalupa/Code/kontext-sdk/apps/react-native-app/node_modules/@kontextso/soundon/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/petr.chalupa/Code/kontext-sdk/apps/react-native-app/node_modules/@kontextso/soundon/android/src/main/AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from /Users/petr.chalupa/Code/kontext-sdk/apps/react-native-app/node_modules/@kontextso/soundon/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/petr.chalupa/Code/kontext-sdk/apps/react-native-app/node_modules/@kontextso/soundon/android/src/main/AndroidManifest.xml
+INJECTED from /Users/petr.chalupa/Code/kontext-sdk/apps/react-native-app/node_modules/@kontextso/soundon/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/petr.chalupa/Code/kontext-sdk/apps/react-native-app/node_modules/@kontextso/soundon/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/petr.chalupa/Code/kontext-sdk/apps/react-native-app/node_modules/@kontextso/soundon/android/src/main/AndroidManifest.xml

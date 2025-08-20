@@ -1,0 +1,10 @@
+{
+  "extends": "@kontextso/typescript-config/react-library.json",
+  "compilerOptions": {
+    "outDir": "dist"
+  },
+  "allowJs": true,
+  "checkJs": false,
+  "include": ["src/**/*", "vitest.setup.ts"],
+  "exclude": ["node_modules", "dist"]
+}
